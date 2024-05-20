@@ -15,5 +15,7 @@ I have successfully implemented the game in Python and used the stable_baselines
 <img width="538" alt="Screenshot 2024-05-20 at 15 29 57" src="https://github.com/lucca11235/2048-PPO/assets/91396656/b8f09de9-3d52-49d2-92d3-297890068aae">
 
 ### Comparizon with random policy
-Even though the model was not able to achieve a human performance, it's clear that the model learned a bit since the disbribution of best scores the model created is slightly shifted to the right, meaning that on average the model is better then a random policy.
-<img width="501" alt="Screenshot 2024-05-20 at 19 39 37" src="https://github.com/lucca11235/2048-PPO/assets/91396656/560259ed-c2be-49e5-92e1-bd59f7378599">
+Even though the model was not able to achieve a good performance, it's clear that the model learned a bit since the disbribution of best scores the model created is slightly shifted to the right, meaning that on average the model is better then a random policy.
+
+<img width="507" alt="Screenshot 2024-05-20 at 19 49 30" src="https://github.com/lucca11235/2048-PPO/assets/91396656/01636c32-7c5a-42c4-933e-3085cbb0e700">
+
