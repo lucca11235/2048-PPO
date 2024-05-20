@@ -11,4 +11,9 @@ The rules of 2048 are simple: each move collapses the tiles on the board. If two
 # Results (as of now)
 I have successfully implemented the game in Python and used the stable_baselines3 library to apply the PPO algorithm. The results show an upward trend in rewards across episodes, indicating some learning progress. However, the rewards are still quite unstable, which affects the algorithm’s performance. Further improvements are necessary to enhance the stability and efficiency of the gamepla, perhaps by increasing the size of the network or playing with hyperparameters using Optuna.
 
+### Rewards across episodes
 <img width="538" alt="Screenshot 2024-05-20 at 15 29 57" src="https://github.com/lucca11235/2048-PPO/assets/91396656/b8f09de9-3d52-49d2-92d3-297890068aae">
+
+### Comparizon with random policy
+Even though the model was not able to achieve a human performance, it's clear that the model learned a bit since the disbribution of best scores the model created is slightly shifted to the right, meaning that on average the model is better then a random policy.
+<img width="501" alt="Screenshot 2024-05-20 at 19 39 37" src="https://github.com/lucca11235/2048-PPO/assets/91396656/560259ed-c2be-49e5-92e1-bd59f7378599">
